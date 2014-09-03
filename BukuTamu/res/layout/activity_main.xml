@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#4169E1">
+    
+    <TextView 
+        android:id="@+id/tvJudul"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Asynctask"
+    	android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="35dp"/>
+ 
+    <!--  dashboard dengan dua tombol -->
+    <!--  tombol untuk melihat data -->
+    <Button android:id="@+id/btnLihatData"
+	    android:layout_width="200dp"
+	    android:layout_height="50dp"
+        android:text="Lihat Data"
+        android:textColor="#FFFFFF"
+        android:background="#00BFFF"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"/>
+ 
+    <!--  tombol untuk membuat data -->
+    <Button android:id="@+id/btnBuatData"
+	    android:layout_width="200dp"
+	    android:layout_height="50dp"
+        android:text="Tambah Data"
+        android:background="#00BFFF"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"/>
+ 
+</LinearLayout>
