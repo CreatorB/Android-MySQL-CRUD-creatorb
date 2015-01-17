@@ -2,12 +2,12 @@ package id.creatorb.bukutamu;
 
 import java.util.ArrayList;
 import java.util.List;
- 
+
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONException;
 import org.json.JSONObject;
- 
+
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -34,7 +34,7 @@ public class TambahBukuTamu extends Activity {
     EditText inputDesc;
  
     // url to membuat produk baru
-    private static String url_tambah_pendaftaran = "http://10.0.2.2/pendaftaran/create_pendaftaran.php";
+	private static String url_tambah_pendaftaran = "http://192.168.2.32/pendaftaran/create_pendaftaran.php";
  
     private static final String TAG_SUCCESS = "success";
  
