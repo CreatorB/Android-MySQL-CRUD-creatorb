@@ -38,13 +38,13 @@ public class EditBukuTamu extends Activity {
 	JSONParser jsonParser = new JSONParser();
 
 	// url untuk halaman single dari bukutamu
-	private static final String url_pendaftaran_details = "http://192.168.2.32/pendaftaran/get_pendaftaran_details.php";
+	private static final String url_pendaftaran_details = "http://192.168.1.22/pendaftaran/get_pendaftaran_details.php";
 
 	// url untuk pembaharuan buku tamu
-	private static final String url_update_pendaftaran = "http://192.168.2.32/pendaftaran/update_pendaftaran.php";
+	private static final String url_update_pendaftaran = "http://192.168.1.22/pendaftaran/update_pendaftaran.php";
 
 	// url untuk menghapus buku tamu
-	private static final String url_delete_pendaftaran = "http://192.168.2.32/pendaftaran/delete_pendaftaran.php";
+	private static final String url_delete_pendaftaran = "http://192.168.1.22/pendaftaran/delete_pendaftaran.php";
 
 	// node node json
 	private static final String TAG_SUCCESS = "success";

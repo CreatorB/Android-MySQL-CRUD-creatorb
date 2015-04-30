@@ -34,7 +34,7 @@ public class TambahBukuTamu extends Activity {
     EditText inputDesc;
  
     // url to membuat produk baru
-	private static String url_tambah_pendaftaran = "http://192.168.2.32/pendaftaran/create_pendaftaran.php";
+	private static String url_tambah_pendaftaran = "http://192.168.1.22/pendaftaran/create_pendaftaran.php";
  
     private static final String TAG_SUCCESS = "success";
  

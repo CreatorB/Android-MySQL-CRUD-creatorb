@@ -34,7 +34,7 @@ public class SemuaBukuTamu extends ListActivity {
     ArrayList<HashMap<String, String>> bukutamuList;
  
     // url untuk get semua buku tamu
-    private static String url_semua_bukutamu = "http://192.168.2.32/pendaftaran/get_all_pendaftaran.php";
+    private static String url_semua_bukutamu = "http://192.168.1.22/pendaftaran/get_all_pendaftaran.php";
  
     // JSON Node
     private static final String TAG_SUCCESS = "success";
