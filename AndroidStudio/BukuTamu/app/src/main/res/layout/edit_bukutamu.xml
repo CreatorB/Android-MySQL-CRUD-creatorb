@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#4169E1" >
+ 
+    <!-- Nama -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+ 
+    <!-- Input Name -->
+    <EditText android:id="@+id/inputName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"/>
+ 
+    <!-- Email -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+ 
+    <!-- Input Email -->
+    <EditText android:id="@+id/inputEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"/>
+ 
+    <!-- Bio -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Bio"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+ 
+    <!-- Input bio -->
+    <EditText android:id="@+id/inputDesc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:lines="4"
+        android:gravity="top"/>
+ 
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <!-- Button simpan bukutamu -->
+    <Button android:id="@+id/btnSave"
+	    android:layout_width="200dp"
+	    android:layout_height="50dp"
+        android:text="Simpan"
+        android:layout_weight="1"
+        android:background="#00BFFF"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"/>
+ 
+    <!-- Button hapus bukutamu -->
+    <Button android:id="@+id/btnDelete"
+	    android:layout_width="200dp"
+	    android:layout_height="50dp"
+        android:text="Hapus"
+        android:layout_weight="1"
+        android:background="#00BFFF"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"/>
+    </LinearLayout>
+ 
+</LinearLayout>

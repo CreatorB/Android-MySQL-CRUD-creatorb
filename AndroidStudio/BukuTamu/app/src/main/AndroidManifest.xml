@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.creatorb.bukutamu"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"/>
+
+    <application
+        android:configChanges="keyboardHidden|orientation"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+ 
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+ 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+ 
+        <!-- All Product Activity -->
+        <activity
+            android:name=".SemuaBukuTamu"
+            android:label="Data Buku Tamu" >
+        </activity>
+ 
+        <!-- Add Product Activity -->
+        <activity
+            android:name=".TambahBukuTamu"
+            android:label="Tambah Buku Tamu" >
+        </activity>
+ 
+        <!-- Edit Product Activity -->
+        <activity
+            android:name=".EditBukuTamu"
+            android:label="Edit Buku Tamu" >
+        </activity>
+    </application>
+ 
+    <!--  Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+ 
+</manifest>

@@ -1,0 +1,72 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+MERGED from com.android.support:support-v4:20.0.0:16:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:8:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+application
+ADDED from AndroidManifest.xml:10:5
+MERGED from com.android.support:support-v4:20.0.0:17:5
+	android:label
+		ADDED from AndroidManifest.xml:13:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:11:9
+	android:icon
+		ADDED from AndroidManifest.xml:12:9
+activity#id.creatorb.bukutamu.MainActivity
+ADDED from AndroidManifest.xml:15:9
+	android:label
+		ADDED from AndroidManifest.xml:17:13
+	android:name
+		ADDED from AndroidManifest.xml:16:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:18:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:19:17
+	android:name
+		ADDED from AndroidManifest.xml:19:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:21:17
+	android:name
+		ADDED from AndroidManifest.xml:21:27
+activity#id.creatorb.bukutamu.SemuaBukuTamu
+ADDED from AndroidManifest.xml:26:9
+	android:label
+		ADDED from AndroidManifest.xml:28:13
+	android:name
+		ADDED from AndroidManifest.xml:27:13
+activity#id.creatorb.bukutamu.TambahBukuTamu
+ADDED from AndroidManifest.xml:32:9
+	android:label
+		ADDED from AndroidManifest.xml:34:13
+	android:name
+		ADDED from AndroidManifest.xml:33:13
+activity#id.creatorb.bukutamu.EditBukuTamu
+ADDED from AndroidManifest.xml:38:9
+	android:label
+		ADDED from AndroidManifest.xml:40:13
+	android:name
+		ADDED from AndroidManifest.xml:39:13
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:45:5
+	android:name
+		ADDED from AndroidManifest.xml:45:22
